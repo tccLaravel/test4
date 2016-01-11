@@ -1,0 +1,23 @@
+{
+    "name": "roget/json",
+    "description": "",
+    "authors": [
+        {
+            "name": "roget",
+            "email": "roget77@admin.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Roget\\Json\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

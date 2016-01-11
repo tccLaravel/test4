@@ -1,0 +1,6 @@
+@charset "utf-8";
+/*后台首页表格样式*/
+.table_message{ width:100%; margin-bottom:10px;}
+.table_message tr td a{ font:14px 楷书; padding:5px; font-weight:bold; margin:5px; line-height:30px;}
+.table_message tr td{ cellspacing:10px; border:1px solid #666;cellpadding:3px;}
+/*后台首页表格样式*/

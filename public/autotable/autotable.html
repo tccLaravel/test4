@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf8" />
+</head>
+<script type="text/javascript" src="./jquery-1.8.3.min.js" ></script>
+<link rel="stylesheet" type="text/css" href="./css/css/bootstrap.min.css">
+<style type="text/css">
+	
+.content-center tr td { 
+
+text-align: center;
+
+}
+
+</style>
+<body>
+
+<div id="checkbox_content" >
+</div>
+<div style="width:80%;" >
+<table class="table table-hover table-bordered content-center " id="table" >
+</table>
+</div>
+<div id="value_show" >
+</div>
+<script type="text/javascript" src="./autotable.js" ></script>
+<script type="text/javascript">
+
+//属性值id,属性值,属性名id,属性名,是否选中
+
+var checkbox_value="[[{"attribute_name_id":34,"attribute_name_value":"#ccc","name_id":2,"name_value":"color","is_checked":0},
+{"attribute_name_id":35,"attribute_name_value":"#333","name_id":2,"name_value":"color","is_checked":0}],
+[{"attribute_name_id":12,"attribute_name_value":"XL","name_id":1,"name_value":"size","is_checked":0},
+{"attribute_name_id":13,"attribute_name_value":"XXL","name_id":1,"name_value":"size","is_checked":0}]]";
+
+$(function(){ 
+
+autotable_init(checkbox_value,'checkbox_content');
+
+});
+
+</script>
+</body>
+</html>
